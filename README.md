@@ -4,7 +4,7 @@ This Telegram bot interacts with the stock market API to provide real-time data 
 
 ## Configuration
 
-Create an `application.properties` file in the `src/main/resources` directory with the following content:
+Create an `Application.properties` file in the `src/main/resources` directory with the following content:
 
 ```properties
 BOT_TOKEN=your_telegram_bot_api_key
