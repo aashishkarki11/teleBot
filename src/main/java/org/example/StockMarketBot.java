@@ -161,7 +161,7 @@ public class StockMarketBot {
     }
   }
 
-  //demo stock api with API key
+  //demo stock api without API key
   public String getIBMData(String symbol) throws IOException {
 
     // for demo testing
