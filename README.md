@@ -1,9 +1,11 @@
-Testing out with Stock market API with telegramBot
+# Telegram Bot for Stock Market API
 
-add Application.properties
+This Telegram bot interacts with the stock market API to provide real-time data and information.
 
-Add these two values:
+## Configuration
 
-BOT_TOKEN= (add telegram bot API key --> get from telegram BotFather)
+Create an `application.properties` file in the `src/main/resources` directory with the following content:
 
-ALPHA_VANTAGE_API_KEY= ( get a API key from here --> https://www.alphavantage.co/support/#api-key)
+```properties
+BOT_TOKEN=your_telegram_bot_api_key
+ALPHA_VANTAGE_API_KEY=your_alphavantage_api_key
